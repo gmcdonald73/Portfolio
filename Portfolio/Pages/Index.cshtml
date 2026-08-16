@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+
+<div class="text-center">
+
+    <h1 class="display-3">
+        Graeme McDonald
+    </h1>
+
+    <h3>
+        Senior Software Developer
+    </h3>
+
+    <p class="lead">
+        Building simulation engines,
+        trading tools and modern .NET applications.
+    </p>
+
+    <a class="btn btn-primary"
+       asp-page="/Projects/Index">
+        View Projects
+    </a>
+
+</div>
+
+<hr />
+
+<h2>
+    Featured Projects
+</h2>
+
+<div class="row">
+
+    @foreach (var project in Model.FeaturedProjects)
+    {
+        <partial name="_ProjectCard"
+                 model="project" />
+    }
+
+</div>

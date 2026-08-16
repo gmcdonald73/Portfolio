@@ -1,0 +1,52 @@
+﻿@model Portfolio.Models.Project
+
+<div class="col-md-6 mb-4">
+
+    <div class="card h-100 project-card">
+
+        <img src="@Model.Image"
+             class="card-img-top">
+
+        <div class="card-body">
+
+            <h3>
+
+                @Model.Name
+
+            </h3>
+
+            <p>
+
+                @Model.Description
+
+            </p>
+
+        </div>
+
+        <div class="card-footer">
+
+            <a href="@Model.LiveUrl"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-success">
+                Live Demo
+            </a>
+
+            <a href="@Model.GitHubUrl"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-dark">
+                GitHub
+            </a>
+
+            <a asp-page="/Projects/Details"
+               asp-route-slug="@Model.Id"
+               class="btn btn-primary">
+                View Case Study
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

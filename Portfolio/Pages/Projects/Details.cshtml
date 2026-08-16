@@ -1,0 +1,16 @@
+﻿@page "{slug}"
+@model Portfolio.Pages.Projects.DetailsModel
+
+<div class="container py-5">
+
+    <h1>@Model.Project.Name</h1>
+
+    <p class="lead">@Model.Project.Description</p>
+
+    <hr />
+
+    <div class="project-case-study">
+        @Html.Raw(Model.MarkdownHtml)
+    </div>
+
+</div>

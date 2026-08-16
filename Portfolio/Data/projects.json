@@ -1,0 +1,40 @@
+[
+  {
+    "id": "worldcup",
+    "name": "World Cup Knockout Simulator",
+    "description": "Monte Carlo tournament simulation using Elo ratings.",
+    "image": "/images/WorldCupSimulator.png",
+    "githubUrl": "https://github.com/gmcdonald73/WorldCupSimulator",
+    "liveUrl": "https://worldcupsimulator-gmcdonald-ejagawaya7brgcc5.australiaeast-01.azurewebsites.net/",
+    "technologies": [
+      "ASP.NET Core",
+      "Azure",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "features": [
+      "Monte Carlo simulation",
+      "Live ESPN data",
+      "Tournament rewind"
+    ]
+  },
+  {
+    "id": "riskcalculator",
+    "name": "Risk Calculator",
+    "description": "ASP.NET Core trading risk calculator with position sizing, capital allocation, and reward/risk metrics.",
+    "image": "/images/RiskCalculator.png",
+    "githubUrl": "https://github.com/gmcdonald73/riskcalculator",
+    "liveUrl": "https://riskcalculator-gmcdonald.azurewebsites.net/",
+    "technologies": [
+      "ASP.NET Core",
+      "Azure",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "features": [
+      "Calc position size",
+      "Calculate risk v reward",
+      "Warnings"
+    ]
+  }
+]

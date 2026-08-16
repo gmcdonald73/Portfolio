@@ -1,0 +1,25 @@
+﻿@page
+@model Portfolio.Pages.Projects.IndexModel
+
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<div class="text-center mb-5">
+
+    <h1 class="display-4">Projects</h1>
+
+    <p class="lead">
+        A selection of applications and technical projects I've built.
+    </p>
+
+</div>
+
+<div class="row">
+
+    @foreach (var project in Model.Projects)
+    {
+        <partial name="_ProjectCard" model="project" />
+    }
+
+</div>
