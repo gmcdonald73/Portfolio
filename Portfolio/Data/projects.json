@@ -5,6 +5,7 @@
     "description": "Monte Carlo tournament simulation using Elo ratings.",
     "image": "/images/WorldCupSimulator.png",
     "githubUrl": "https://github.com/gmcdonald73/WorldCupSimulator",
+    "githubbranch": "master",
     "liveUrl": "https://worldcupsimulator-gmcdonald-ejagawaya7brgcc5.australiaeast-01.azurewebsites.net/",
     "technologies": [
       "ASP.NET Core",
@@ -24,6 +25,7 @@
     "description": "ASP.NET Core trading risk calculator with position sizing, capital allocation, and reward/risk metrics.",
     "image": "/images/RiskCalculator.png",
     "githubUrl": "https://github.com/gmcdonald73/riskcalculator",
+    "githubbranch": "master",
     "liveUrl": "https://riskcalculator-gmcdonald.azurewebsites.net/",
     "technologies": [
       "ASP.NET Core",
@@ -35,6 +37,24 @@
       "Calc position size",
       "Calculate risk v reward",
       "Warnings"
+    ]
+  },
+  {
+    "id": "portfolio",
+    "name": "Personal Portfolio Website",
+    "description": "Personal portfolio website (i.e. this site) showcasing my projects, skills, and experience, built with ASP.NET Core Razor Pages.",
+    "image": "/images/Portfolio.png",
+    "githubUrl": "https://github.com/gmcdonald73/Portfolio",
+    "githubbranch": "master",
+    "liveUrl": "",
+    "technologies": [
+      "ASP.NET Core",
+      "Azure",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "features": [
+      "Dynamic data driven cards"
     ]
   }
 ]

@@ -10,6 +10,8 @@ public class Project
 
     public string GitHubUrl { get; set; } = "";
 
+    public string GitHubBranch { get; set; } = "";
+
     public string LiveUrl { get; set; } = "";
 
     public List<string> Technologies { get; set; } = [];

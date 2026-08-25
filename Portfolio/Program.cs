@@ -7,6 +7,8 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddSingleton<ProjectService>();
 
+builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
