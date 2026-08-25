@@ -4,6 +4,8 @@ A personal portfolio website showcasing my software development projects, techni
 
 The site is designed to provide an overview of my projects while also allowing each project to have a more detailed case study describing the problem, approach, implementation, and lessons learned.
 
+![Portfolio project image](Portfolio/wwwroot/images/Portfolio.png)
+
 ## Features
 
 * Data-driven project cards
