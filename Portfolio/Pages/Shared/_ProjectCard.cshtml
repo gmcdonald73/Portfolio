@@ -25,25 +25,41 @@
 
         <div class="card-footer">
 
-            <a href="@Model.LiveUrl"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="btn btn-success">
-                Live Demo
-            </a>
+            @if (!string.IsNullOrWhiteSpace(Model.LiveUrl))
+            {
+                <a href="@Model.LiveUrl"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn btn-success">
+                    Live Demo
+                </a>
+            }
 
-            <a href="@Model.GitHubUrl"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="btn btn-dark">
-                GitHub
-            </a>
+            @if (!string.IsNullOrWhiteSpace(Model.GitHubUrl))
+            {
+                <a href="@Model.GitHubUrl"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn btn-dark">
+                    GitHub
+                </a>
+            }
 
             <a asp-page="/Projects/Details"
                asp-route-slug="@Model.Id"
                class="btn btn-primary">
                 ReadMe
             </a>
+
+            @if (!string.IsNullOrWhiteSpace(Model.SubStackUrl))
+            {
+                <a href="@Model.SubStackUrl"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn btn-substack">
+                    Substack
+                </a>
+            }
 
         </div>
 

@@ -13,8 +13,12 @@ public class Project
     public string GitHubBranch { get; set; } = "";
 
     public string LiveUrl { get; set; } = "";
+    public string SubStackUrl { get; set; } = "";
 
     public List<string> Technologies { get; set; } = [];
 
     public List<string> Features { get; set; } = [];
+
+    public bool Featured { get; set; } = false;
+    public bool Hide {  get; set; } = false;
 }

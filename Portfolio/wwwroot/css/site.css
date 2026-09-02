@@ -71,3 +71,13 @@ footer {
 .navbar .navbar-nav {
     margin-left: 2rem;
 }
+
+.btn-substack {
+    background-color: #ff671d;
+    border-color: #ff671d;
+    color: white;
+}
+
+.readme-content img[alt="Portfolio project image"] {
+    display: none;
+}

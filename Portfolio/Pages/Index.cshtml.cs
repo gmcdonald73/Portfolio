@@ -15,6 +15,8 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-        FeaturedProjects = _service.GetProjects();
+        FeaturedProjects = _service.GetProjects()
+                       .Where(p => p.Featured && !p.Hide)
+                       .ToList();
     }
 }

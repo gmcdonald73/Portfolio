@@ -1,12 +1,14 @@
 [
   {
     "id": "worldcup",
+    "featured": true,
     "name": "World Cup Knockout Simulator",
     "description": "Monte Carlo tournament simulation using Elo ratings.",
     "image": "/images/WorldCupSimulator.png",
     "githubUrl": "https://github.com/gmcdonald73/WorldCupSimulator",
     "githubbranch": "master",
     "liveUrl": "https://worldcupsimulator-gmcdonald-ejagawaya7brgcc5.australiaeast-01.azurewebsites.net/",
+    "subStackUrl": "https://gmcdonald73.substack.com/p/simulating-the-world-cup-knockout",
     "technologies": [
       "ASP.NET Core",
       "Azure",
@@ -21,6 +23,7 @@
   },
   {
     "id": "riskcalculator",
+    "featured": true,
     "name": "Risk Calculator",
     "description": "ASP.NET Core trading risk calculator with position sizing, capital allocation, and reward/risk metrics.",
     "image": "/images/RiskCalculator.png",
@@ -41,6 +44,7 @@
   },
   {
     "id": "portfolio",
+    "featured": false,
     "name": "Personal Portfolio Website",
     "description": "Personal portfolio website (i.e. this site) showcasing my projects, skills, and experience, built with ASP.NET Core Razor Pages.",
     "image": "/images/Portfolio.png",
@@ -56,5 +60,17 @@
     "features": [
       "Dynamic data driven cards"
     ]
+  },
+  {
+    "id": "holdembots",
+    "featured": false,
+    "hide":  true,
+    "name": "Holdem bots",
+    "description": "Framework to allow people to develop bots to play texas holdem poker against each other.",
+    "image": "",
+    "githubUrl": "https://github.com/gmcdonald73/holdem-bots",
+    "githubbranch": "master",
+    "liveUrl": ""
   }
+
 ]

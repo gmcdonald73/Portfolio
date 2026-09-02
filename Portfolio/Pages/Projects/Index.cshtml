@@ -17,7 +17,7 @@
 
 <div class="row">
 
-    @foreach (var project in Model.Projects)
+    @foreach (var project in Model.Projects.Where(p => !p.Hide))
     {
         <partial name="_ProjectCard" model="project" />
     }
