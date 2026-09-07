@@ -1,6 +1,7 @@
 [
   {
     "id": "worldcup",
+    "order": 30,
     "featured": true,
     "name": "World Cup Knockout Simulator",
     "description": "Monte Carlo tournament simulation using Elo ratings.",
@@ -23,6 +24,7 @@
   },
   {
     "id": "riskcalculator",
+    "order": 20,
     "featured": true,
     "name": "Risk Calculator",
     "description": "ASP.NET Core trading risk calculator with position sizing, capital allocation, and reward/risk metrics.",
@@ -44,6 +46,7 @@
   },
   {
     "id": "portfolio",
+    "order": 40,
     "featured": false,
     "name": "Personal Portfolio Website",
     "description": "Personal portfolio website (i.e. this site) showcasing my projects, skills, and experience, built with ASP.NET Core Razor Pages.",
@@ -63,11 +66,12 @@
   },
   {
     "id": "holdembots",
+    "order":  10,
     "featured": false,
-    "hide":  true,
+    "hide": false,
     "name": "Holdem bots",
-    "description": "Framework to allow people to develop bots to play texas holdem poker against each other.",
-    "image": "",
+    "description": "A platform for developing and testing Texas Hold’em poker bots against each other.",
+    "image": "/images/holdembots.png",
     "githubUrl": "https://github.com/gmcdonald73/holdem-bots",
     "githubbranch": "master",
     "liveUrl": ""

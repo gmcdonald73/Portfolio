@@ -21,4 +21,6 @@ public class Project
 
     public bool Featured { get; set; } = false;
     public bool Hide {  get; set; } = false;
+
+    public int Order { get; set; }
 }
