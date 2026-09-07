@@ -23,33 +23,43 @@
 
             <a class="navbar-brand"
                asp-page="/Index">
-
                 Graeme McDonald
-
             </a>
 
-            <div class="navbar-nav">
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
 
-                <a class="nav-link"
-                   asp-page="/Projects/Index">
-                    
-                    Projects
+                <span class="navbar-toggler-icon"></span>
 
-                </a>
+            </button>
 
-                <a class="nav-link"
-                   asp-page="/About">
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-                    About
+                <div class="navbar-nav ms-auto">
 
-                </a>
+                    <a class="nav-link"
+                       asp-page="/Projects/Index">
+                        Projects
+                    </a>
 
-                <a href="https://github.com/gmcdonald73"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="btn btn-dark">
-                    GitHub
-                </a>
+                    <a class="nav-link"
+                       asp-page="/About">
+                        About
+                    </a>
+
+                    <a href="https://github.com/gmcdonald73"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="nav-link">
+                        GitHub
+                    </a>
+
+                </div>
 
             </div>
 
