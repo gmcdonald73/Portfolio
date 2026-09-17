@@ -19,6 +19,20 @@
 
         </p>
 
+        @if (Model.Technologies != null && Model.Technologies.Any())
+        {
+            <div class="project-technologies">
+                <strong>Technologies:</strong>
+
+                <div class="technology-list">
+                    @foreach (var technology in Model.Technologies)
+                    {
+                        <span class="technology-badge">@technology</span>
+                    }
+                </div>
+            </div>
+        }
+
     </div>
 
     <div class="card-footer">

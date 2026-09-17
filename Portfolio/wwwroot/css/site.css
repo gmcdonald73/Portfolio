@@ -87,3 +87,24 @@ footer {
 .readme-content img[alt="Portfolio project image"] {
     display: none;
 }
+
+
+.project-technologies {
+    margin-top: 1rem;
+}
+
+.technology-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+}
+
+.technology-badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 0.85rem;
+    background-color: #f8f9fa;
+}
