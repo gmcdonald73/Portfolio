@@ -80,6 +80,21 @@
       "C#",
       "Object-Oriented Design"
     ]
+  },
+  {
+    "id": "javachess",
+    "order": 50,
+    "featured": false,
+    "hide": false,
+    "name": "JavaChess",
+    "description": "A platform for developing and playing against chess bots, or playing them against each other.",
+    "image": "/images/javachess.png",
+    "githubUrl": "https://github.com/gmcdonald73/JavaChess",
+    "githubbranch": "master",
+    "liveUrl": "",
+    "technologies": [
+      "Java",
+      "Stockfish"
+    ]
   }
-
 ]
