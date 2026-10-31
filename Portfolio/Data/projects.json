@@ -25,7 +25,7 @@
   {
     "id": "riskcalculator",
     "order": 20,
-    "featured": true,
+    "featured": false,
     "name": "Risk Calculator",
     "description": "ASP.NET Core trading risk calculator with position sizing, capital allocation, and reward/risk metrics.",
     "image": "/images/RiskCalculator.png",
@@ -84,17 +84,18 @@
   {
     "id": "javachess",
     "order": 50,
-    "featured": false,
+    "featured": true,
     "hide": false,
     "name": "JavaChess",
-    "description": "A platform for developing and playing against chess bots, or playing them against each other.",
+    "description": "A custom Java chess engine with a graphical and console interface, a basic chess-playing bot, and Stockfish integration.",
     "image": "/images/javachess.png",
     "githubUrl": "https://github.com/gmcdonald73/JavaChess",
     "githubbranch": "master",
     "liveUrl": "",
     "technologies": [
       "Java",
-      "Stockfish"
+      "Stockfish",
+      "JUnit"
     ]
   }
 ]
